@@ -18,14 +18,13 @@ Registra tus lecturas, lleva un control de los libros que prestas y guarda tus v
 
 El proyecto está estructurado de la siguiente manera:
 
+```yaml
 app/
 └── src/
 ├── main/java/ # Código fuente de la aplicación en Java
 ├── main/res/ # Recursos: layouts XML, imágenes y strings
 └── test/java/ # Tests unitarios
-
-yaml
-Copiar código
+```
 
 ---
 
