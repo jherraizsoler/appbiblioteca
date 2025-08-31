@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:backgroundTint="#31314D"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_AcercaDe"
+            android:layout_width="147dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="1dp"
+            android:background="#00FFFFFF"
+            android:text="Acerca de ..."
+            app:cornerRadius="0dp"
+            app:icon="@drawable/ic_action_info"
+            app:iconGravity="top"
+            app:iconPadding="3dp"
+            app:iconSize="55dp"
+            app:iconTintMode="multiply"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btn_AltaLibro"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_OrdenarPor"
+            android:layout_width="102dp"
+            android:layout_height="110dp"
+            android:background="#00FFFFFF"
+            android:text="Ordenar por"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/ic_action_ordenar_por"
+            app:iconGravity="top"
+            app:iconPadding="3dp"
+            app:iconSize="55dp"
+            app:iconTintMode="multiply"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_AltaLibro"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_ImportarDatos"
+            android:layout_width="109dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="12dp"
+            android:allowUndo="false"
+            android:background="#00FFFFFF"
+            android:fadingEdge="vertical"
+            android:requiresFadingEdge="vertical"
+            android:text="Importar datos"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/ic_action_importar_datos"
+            app:iconGravity="top"
+            app:iconPadding="0dp"
+            app:iconSize="60dp"
+            app:iconTintMode="multiply"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_OrdenarPor"
+            app:layout_constraintTop_toBottomOf="@+id/btn_AltaLibro"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_ExportarDatos"
+            android:layout_width="104dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="8dp"
+            android:background="#00FFFFFF"
+            android:text="Exportar datos"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/ic_action_exportar_datos"
+            app:iconGravity="top"
+            app:iconPadding="3dp"
+            app:iconSize="55dp"
+            app:iconTintMode="multiply"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btn_ImportarDatos"
+            app:layout_constraintTop_toBottomOf="@+id/btn_AltaLibro"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btn_AltaLibro"
+            android:layout_width="184dp"
+            android:layout_height="94dp"
+            android:background="#00FFFFFF"
+            android:text="Alta libro"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/ic_action_add_libro"
+            app:iconGravity="top"
+            app:iconPadding="3dp"
+            app:iconSize="55dp"
+            app:iconTintMode="multiply"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.Toolbar>
