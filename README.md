@@ -14,6 +14,26 @@ Registra tus lecturas, lleva un control de los libros que prestas y guarda tus v
 
 ---
 
+## 🛠️ Tecnologías
+
+- **Lenguaje:** Java 15  
+- **SDK:** Compile SDK 35 | Min SDK 25 | Target SDK 35  
+- **Plugin Gradle Android:** AGP 8.6.0  
+
+### 📦 Dependencias Principales
+- **AndroidX AppCompat** → 1.7.0  
+- **Material Design Components** → 1.12.0  
+- **AndroidX Activity** → 1.10.0  
+- **ConstraintLayout** → 2.2.0  
+
+### 🧪 Testing
+- **JUnit** → 4.13.2  
+- **AndroidX JUnit Ext** → 1.2.1  
+- **Espresso Core** → 3.6.1  
+- **Mockito Core** → 4.8.0  
+
+
+
 ## 📂 Estructura del Proyecto
 
 El proyecto está estructurado de la siguiente manera:
